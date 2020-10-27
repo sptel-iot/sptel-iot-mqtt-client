@@ -22,7 +22,6 @@ var client = mqtt.connect(
 );
 
 client.on("connect", function () {
-  s;
   var date = new Date();
 
   // device_id and time is manadatory while publishing

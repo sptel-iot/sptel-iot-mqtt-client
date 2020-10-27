@@ -1,11 +1,11 @@
 var mqtt = require("mqtt");
 const fs = require("fs");
 //CA certificate
-var CA_File = fs.readFileSync("./ca.pem");
+var CA_File = fs.readFileSync("./secure/ca.pem");
 
 //if using client certificates
-var PRIVATE_KEY = fs.readFileSync("./Sensor-device-001.key");
-var CERT = fs.readFileSync("./Sensor-device-001.crt");
+var PRIVATE_KEY = fs.readFileSync("./secure/Sensor-device-001.key");
+var CERT = fs.readFileSync("./secure/Sensor-device-001.crt");
 
 var options = {
   rejectUnauthorized: false,

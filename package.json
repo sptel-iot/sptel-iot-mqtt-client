@@ -1,7 +1,7 @@
 {
-  "name": "sptel-iot-sdk",
+  "name": "sptel-iot-mqtt-client",
   "version": "1.0.0",
-  "description": "SDK to connect your device to SPTel IoT Platform",
+  "description": "MQTT client to connect your device to SPTel IoT Platform",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
